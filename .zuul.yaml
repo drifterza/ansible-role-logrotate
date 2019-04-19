@@ -2,7 +2,7 @@
     name: ansible-role-logrotate
     run: tests/playbooks/run.yaml
     roles:
-      - zuul: openstack/ansible-role-logrotate
+      - zuul: windmill/ansible-role-logrotate
 
 - job:
     name: ansible-role-logrotate-fedora-latest
